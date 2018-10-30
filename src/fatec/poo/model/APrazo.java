@@ -10,5 +10,8 @@ package fatec.poo.model;
  * @author georgejunior
  */
 public class APrazo {
-    
+    private double Valor;
+    private String DtVencimento;
+    private double TaxaJuros;
+    private int QtdeMensalidade;
 }

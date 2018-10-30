@@ -10,5 +10,9 @@ package fatec.poo.model;
  * @author georgejunior
  */
 public class AVista {
+    private double Valor;
+    private int Agencia;
+    private int NCheque;
+    private String PreData;
     
 }
