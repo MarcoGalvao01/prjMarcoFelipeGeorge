@@ -14,5 +14,21 @@ public class Matricula {
     private String Data;
     private int QtdeFaltas;
     private double Nota;
+
+    public Matricula(String Data) {
+        this.Data = Data;
+    }
+
+    public void setQtdeFaltas(int QtdeFaltas) {
+        this.QtdeFaltas = QtdeFaltas;
+    }
+
+    public void setNota(double Nota) {
+        this.Nota = Nota;
+    }
+    
+    public void EmitirCarne(){
+    
+    }
     
 }

@@ -17,9 +17,6 @@ public class Aluno extends Pessoa
         super(Nome, CPF);
     }
 
-    public String getEscolaridade() {
-        return Escolaridade;
-    }
 
     public void setEscolaridade(String Escolaridade) {
         this.Escolaridade = Escolaridade;

@@ -18,18 +18,12 @@ public class Instrutor extends Pessoa
         super(Nome, CPF);
     }
 
-    public String getFormacao() {
-        return Formacao;
-    }
 
     public void setFormacao(String Formacao) {
         this.Formacao = Formacao;
     }
 
-    public String getAreaAtuacao() {
-        return AreaAtuacao;
-    }
-
+    
     public void setAreaAtuacao(String AreaAtuacao) {
         this.AreaAtuacao = AreaAtuacao;
     }
