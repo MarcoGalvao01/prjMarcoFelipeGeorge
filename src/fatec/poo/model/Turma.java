@@ -18,6 +18,8 @@ public class Turma {
     private String Periodo;
     private int QtdVagas;
     private String Observacors;
+    private Instrutor instrutor;
+    private Curso curso;
 
     public Turma(String SiglaTurma, String Descricao) {
         this.SiglaTurma = SiglaTurma;
@@ -50,6 +52,16 @@ public class Turma {
 
     public void EmitirListaFrequencia() {
 
+    }
+    
+    public void setInstrutor(Instrutor instrutor)
+    {
+        this.instrutor = instrutor;
+    }
+    
+    public void setCurso(Curso curso)
+    {
+        this.curso = curso;
     }
 
 }
